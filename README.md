@@ -7,15 +7,19 @@ Part 1: Explain how (and identify where in your code) you extracted HOG features
 After many trials and errors, I found YCrCb color space leads to the least false positives. (HSV didn't work as well after I experimented with it). Here is the visualization: 
 
 Car image sample 
+
 ![screen shot 2017-03-19 at 1 24 26 pm](https://cloud.githubusercontent.com/assets/11469505/24084444/b05fcdb2-0ca7-11e7-997d-40570d043b01.png)
 
-Car Image YCrCb visualization 
+Car Image YCrCb visualization
+
 ![car_plot](https://cloud.githubusercontent.com/assets/11469505/24084447/c45e4cd0-0ca7-11e7-894f-845790fdef5b.png)
 
 Non car image sample
+
 ![screen shot 2017-03-19 at 1 25 44 pm](https://cloud.githubusercontent.com/assets/11469505/24084449/d266d91e-0ca7-11e7-9465-c3885e435b21.png)
 
 Non car image YCrCb visualization
+
 ![noncar_plot](https://cloud.githubusercontent.com/assets/11469505/24084451/de148554-0ca7-11e7-8259-f6bd7c6facfa.png)
 
 Part 2. Train the classifier 
